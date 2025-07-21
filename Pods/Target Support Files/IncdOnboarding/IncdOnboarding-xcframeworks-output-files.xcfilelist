@@ -1,0 +1,2 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/IncdOnboarding/IncdOnboarding.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/IncdOnboarding/opencv2.framework

@@ -1,0 +1,16 @@
+PODS:
+  - IncdOnboarding (5.35.0-d)
+
+DEPENDENCIES:
+  - IncdOnboarding (= 5.35.0-d)
+
+SPEC REPOS:
+  "git@github.com:Incode-Technologies-Example-Repos/IncdDistributionPodspecs.git":
+    - IncdOnboarding
+
+SPEC CHECKSUMS:
+  IncdOnboarding: 1eb9782f54af47b785ddd50aece5a74f9cfc9e0b
+
+PODFILE CHECKSUM: 3b5fc7f11dfeb128fb53d19ba35743f404ec77f2
+
+COCOAPODS: 1.16.2

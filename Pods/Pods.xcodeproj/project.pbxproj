@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		41A433C72B8FDEEEF0D2464FD5467D5F /* IncdOnboarding */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7132D329735FE6FF798273595461EAAD /* Build configuration list for PBXAggregateTarget "IncdOnboarding" */;
+			buildPhases = (
+				00D08FD44560285EAFD6CB3F517C7F5F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = IncdOnboarding;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		60A57D251ECD378C65EC0C8E0F7D4B73 /* Pods-appClipIncode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC19C2B6B6B2A1DE49BE8C6688FAFB7D /* Pods-appClipIncode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA399C7E6A0C2796C6141B65BF102937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		BB2A7B825BC238FFF9D24BA4EB42DF82 /* Pods-appClipIncode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F01C3C9E37D242EA24F42B5AA6B728E4 /* Pods-appClipIncode-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CE5E33488D5984CE6E09C4B86BE2249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A433C72B8FDEEEF0D2464FD5467D5F;
+			remoteInfo = IncdOnboarding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035712D11B9093E4F1F2792E7EDC1752 /* Pods-appClipIncode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appClipIncode.debug.xcconfig"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B1D397BFC2A6BBC03511051F3393EAB /* IncdOnboarding.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = IncdOnboarding.xcframework; sourceTree = "<group>"; };
+		3E5E71D6A3DC763A10FF273148BAD52A /* Pods-appClipIncode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appClipIncode-Info.plist"; sourceTree = "<group>"; };
+		4DF9C9E2D246C69ED5A43CD7ABED10C7 /* Pods-appClipIncode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-appClipIncode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FC85A314423A081EDF023C526BB93D6 /* Pods-appClipIncode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appClipIncode-acknowledgements.plist"; sourceTree = "<group>"; };
+		609E3011526E964B89561AAB79153C98 /* Pods-appClipIncode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-appClipIncode-frameworks.sh"; sourceTree = "<group>"; };
+		7810F313873B304795961B79BEE9CE68 /* IncdOnboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IncdOnboarding.debug.xcconfig; sourceTree = "<group>"; };
+		8141AB803F3E123B2F7CB6A4C7565321 /* IncdOnboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IncdOnboarding.release.xcconfig; sourceTree = "<group>"; };
+		9AC4E9EDD5A6E6B93532BB38A07C9047 /* Pods-appClipIncode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-appClipIncode.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFDCE47162E71B4C97E3B14475FFA2A9 /* IncdOnboarding-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "IncdOnboarding-xcframeworks.sh"; sourceTree = "<group>"; };
+		C655B5B71921B1861C7803B30A421EB0 /* Pods-appClipIncode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appClipIncode.release.xcconfig"; sourceTree = "<group>"; };
+		D72F095D295D7169944B4349A264DE44 /* opencv2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = opencv2.xcframework; sourceTree = "<group>"; };
+		F01C3C9E37D242EA24F42B5AA6B728E4 /* Pods-appClipIncode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-appClipIncode-dummy.m"; sourceTree = "<group>"; };
+		F29956277EAE0EBF2CD1C71E3DB64B6A /* Pods-appClipIncode */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-appClipIncode"; path = Pods_appClipIncode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC19C2B6B6B2A1DE49BE8C6688FAFB7D /* Pods-appClipIncode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appClipIncode-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42509AA99217C1AE0492C2BEED43683F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA399C7E6A0C2796C6141B65BF102937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D05A7675C42FD2CEE27AA97C88BA4BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC457E1D7E8B0C71E65B2FA524A02AF9 /* Pods-appClipIncode */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DE2B6C54BCAB46C8392A782905D615E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFDCE47162E71B4C97E3B14475FFA2A9 /* IncdOnboarding-xcframeworks.sh */,
+				7810F313873B304795961B79BEE9CE68 /* IncdOnboarding.debug.xcconfig */,
+				8141AB803F3E123B2F7CB6A4C7565321 /* IncdOnboarding.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IncdOnboarding";
+			sourceTree = "<group>";
+		};
+		5C2B874708F1E001B156D8BE31DE6A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29956277EAE0EBF2CD1C71E3DB64B6A /* Pods-appClipIncode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B7573FB911AFCDE4C6260E22D6F5241 /* IncdOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1948129946B5C14A8A9E55EFCFE9F /* Frameworks */,
+				2DE2B6C54BCAB46C8392A782905D615E /* Support Files */,
+			);
+			name = IncdOnboarding;
+			path = IncdOnboarding;
+			sourceTree = "<group>";
+		};
+		8E67227EF79E8BCB676FC5B05516C1D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B7573FB911AFCDE4C6260E22D6F5241 /* IncdOnboarding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8E67227EF79E8BCB676FC5B05516C1D9 /* Pods */,
+				5C2B874708F1E001B156D8BE31DE6A58 /* Products */,
+				1D05A7675C42FD2CEE27AA97C88BA4BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC457E1D7E8B0C71E65B2FA524A02AF9 /* Pods-appClipIncode */ = {
+			isa = PBXGroup;
+			children = (
+				9AC4E9EDD5A6E6B93532BB38A07C9047 /* Pods-appClipIncode.modulemap */,
+				4DF9C9E2D246C69ED5A43CD7ABED10C7 /* Pods-appClipIncode-acknowledgements.markdown */,
+				5FC85A314423A081EDF023C526BB93D6 /* Pods-appClipIncode-acknowledgements.plist */,
+				F01C3C9E37D242EA24F42B5AA6B728E4 /* Pods-appClipIncode-dummy.m */,
+				609E3011526E964B89561AAB79153C98 /* Pods-appClipIncode-frameworks.sh */,
+				3E5E71D6A3DC763A10FF273148BAD52A /* Pods-appClipIncode-Info.plist */,
+				FC19C2B6B6B2A1DE49BE8C6688FAFB7D /* Pods-appClipIncode-umbrella.h */,
+				035712D11B9093E4F1F2792E7EDC1752 /* Pods-appClipIncode.debug.xcconfig */,
+				C655B5B71921B1861C7803B30A421EB0 /* Pods-appClipIncode.release.xcconfig */,
+			);
+			name = "Pods-appClipIncode";
+			path = "Target Support Files/Pods-appClipIncode";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2E1948129946B5C14A8A9E55EFCFE9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D397BFC2A6BBC03511051F3393EAB /* IncdOnboarding.xcframework */,
+				D72F095D295D7169944B4349A264DE44 /* opencv2.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F77CDF2D28002570ECBF950C785E79E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A57D251ECD378C65EC0C8E0F7D4B73 /* Pods-appClipIncode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42D3D9AA6190F1842D1D6B5E8F77CC3D /* Pods-appClipIncode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A219490D2E4E37AED60CCAABD7989A3 /* Build configuration list for PBXNativeTarget "Pods-appClipIncode" */;
+			buildPhases = (
+				6F77CDF2D28002570ECBF950C785E79E /* Headers */,
+				C3ED2352106CD8DB2492629E1F8FE0B2 /* Sources */,
+				42509AA99217C1AE0492C2BEED43683F /* Frameworks */,
+				C88255FE0325DF437DA590A161D4C19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5616E1B20B44E44E546B6B2563379906 /* PBXTargetDependency */,
+			);
+			name = "Pods-appClipIncode";
+			productName = Pods_appClipIncode;
+			productReference = F29956277EAE0EBF2CD1C71E3DB64B6A /* Pods-appClipIncode */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C2B874708F1E001B156D8BE31DE6A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41A433C72B8FDEEEF0D2464FD5467D5F /* IncdOnboarding */,
+				42D3D9AA6190F1842D1D6B5E8F77CC3D /* Pods-appClipIncode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88255FE0325DF437DA590A161D4C19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D08FD44560285EAFD6CB3F517C7F5F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/IncdOnboarding/IncdOnboarding-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/IncdOnboarding/IncdOnboarding-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/IncdOnboarding/IncdOnboarding-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3ED2352106CD8DB2492629E1F8FE0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2A7B825BC238FFF9D24BA4EB42DF82 /* Pods-appClipIncode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5616E1B20B44E44E546B6B2563379906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IncdOnboarding;
+			target = 41A433C72B8FDEEEF0D2464FD5467D5F /* IncdOnboarding */;
+			targetProxy = 5CE5E33488D5984CE6E09C4B86BE2249 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0961BB30EBDC6DB47C4C43B34F34F465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7810F313873B304795961B79BEE9CE68 /* IncdOnboarding.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB62938DC4182283904C6932FFF1E551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8141AB803F3E123B2F7CB6A4C7565321 /* IncdOnboarding.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5E84F7B72D348654A4D58B6BA51118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C6CE5977771E061C60E819CBCE3DC417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035712D11B9093E4F1F2792E7EDC1752 /* Pods-appClipIncode.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-appClipIncode/Pods-appClipIncode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-appClipIncode/Pods-appClipIncode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5F20BC1D3BBA9CD471504E764D12825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C655B5B71921B1861C7803B30A421EB0 /* Pods-appClipIncode.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-appClipIncode/Pods-appClipIncode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-appClipIncode/Pods-appClipIncode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A219490D2E4E37AED60CCAABD7989A3 /* Build configuration list for PBXNativeTarget "Pods-appClipIncode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CE5977771E061C60E819CBCE3DC417 /* Debug */,
+				D5F20BC1D3BBA9CD471504E764D12825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E84F7B72D348654A4D58B6BA51118 /* Debug */,
+				B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7132D329735FE6FF798273595461EAAD /* Build configuration list for PBXAggregateTarget "IncdOnboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0961BB30EBDC6DB47C4C43B34F34F465 /* Debug */,
+				BB62938DC4182283904C6932FFF1E551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

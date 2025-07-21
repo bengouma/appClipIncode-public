@@ -1,0 +1,1145 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F78C9A942DDD0A760063A739 /* appClipIncode-clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = F78C9A692DDD0A740063A739 /* appClipIncode-clip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7C4F76E2DF337B9004572EF /* IncdOnboarding.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C4F75F2DF32200004572EF /* IncdOnboarding.xcframework */; };
+		F7C4F76F2DF337B9004572EF /* opencv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C4F7622DF32216004572EF /* opencv2.xcframework */; };
+		F7C4F7702DF337C6004572EF /* IncdOnboarding.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C4F75F2DF32200004572EF /* IncdOnboarding.xcframework */; };
+		F7D6630C2E01FD3B002307AE /* opencv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C4F7622DF32216004572EF /* opencv2.xcframework */; };
+		F7D6630D2E01FD6B002307AE /* TMXAuthentication.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663002E01FCFD002307AE /* TMXAuthentication.xcframework */; };
+		F7D6630E2E01FD6B002307AE /* TMXAuthentication.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7D663002E01FCFD002307AE /* TMXAuthentication.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D6630F2E01FD6D002307AE /* TMXBehavioSec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663012E01FCFD002307AE /* TMXBehavioSec.xcframework */; };
+		F7D663102E01FD6D002307AE /* TMXBehavioSec.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7D663012E01FCFD002307AE /* TMXBehavioSec.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D663112E01FD6E002307AE /* TMXProfilingConnections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663022E01FCFD002307AE /* TMXProfilingConnections.xcframework */; };
+		F7D663122E01FD6E002307AE /* TMXProfilingConnections.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7D663022E01FCFD002307AE /* TMXProfilingConnections.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D663132E01FD6F002307AE /* TMXSensors.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663032E01FCFD002307AE /* TMXSensors.xcframework */; };
+		F7D663142E01FD6F002307AE /* TMXSensors.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7D663032E01FCFD002307AE /* TMXSensors.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D663152E01FD73002307AE /* TMXAuthentication.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663002E01FCFD002307AE /* TMXAuthentication.xcframework */; };
+		F7D663162E01FD73002307AE /* TMXAuthentication.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663002E01FCFD002307AE /* TMXAuthentication.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D663182E01FD74002307AE /* TMXBehavioSec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663012E01FCFD002307AE /* TMXBehavioSec.xcframework */; };
+		F7D663192E01FD74002307AE /* TMXBehavioSec.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663012E01FCFD002307AE /* TMXBehavioSec.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D6631A2E01FD76002307AE /* TMXProfilingConnections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663022E01FCFD002307AE /* TMXProfilingConnections.xcframework */; };
+		F7D6631B2E01FD76002307AE /* TMXProfilingConnections.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663022E01FCFD002307AE /* TMXProfilingConnections.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D6631C2E01FD77002307AE /* TMXSensors.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663032E01FCFD002307AE /* TMXSensors.xcframework */; };
+		F7D6631D2E01FD77002307AE /* TMXSensors.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663032E01FCFD002307AE /* TMXSensors.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D663202E01FE92002307AE /* TMXProfiling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6631F2E01FE92002307AE /* TMXProfiling.xcframework */; };
+		F7D663212E01FEA7002307AE /* TMXProfiling.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7D6631F2E01FE92002307AE /* TMXProfiling.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7D663222E01FEB8002307AE /* TMXProfiling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6631F2E01FE92002307AE /* TMXProfiling.xcframework */; };
+		F7D663232E01FEBF002307AE /* TMXProfiling.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6631F2E01FE92002307AE /* TMXProfiling.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75D6B012DD7AAF500D6C51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75D6AE22DD7AAF300D6C51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75D6AE92DD7AAF300D6C51F;
+			remoteInfo = appClipIncode;
+		};
+		F75D6B0B2DD7AAF500D6C51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75D6AE22DD7AAF300D6C51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75D6AE92DD7AAF300D6C51F;
+			remoteInfo = appClipIncode;
+		};
+		F78C9A802DDD0A760063A739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75D6AE22DD7AAF300D6C51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78C9A682DDD0A740063A739;
+			remoteInfo = "appClipIncode-clip";
+		};
+		F78C9A8A2DDD0A760063A739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75D6AE22DD7AAF300D6C51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78C9A682DDD0A740063A739;
+			remoteInfo = "appClipIncode-clip";
+		};
+		F78C9A912DDD0A760063A739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75D6AE22DD7AAF300D6C51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78C9A682DDD0A740063A739;
+			remoteInfo = "appClipIncode-clip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F78C9A932DDD0A760063A739 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				F78C9A942DDD0A760063A739 /* appClipIncode-clip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D0DA792DD7D24800B30ADF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7D663212E01FEA7002307AE /* TMXProfiling.xcframework in CopyFiles */,
+				F7D663122E01FD6E002307AE /* TMXProfilingConnections.xcframework in CopyFiles */,
+				F7D663102E01FD6D002307AE /* TMXBehavioSec.xcframework in CopyFiles */,
+				F7D6630E2E01FD6B002307AE /* TMXAuthentication.xcframework in CopyFiles */,
+				F7D663142E01FD6F002307AE /* TMXSensors.xcframework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D663172E01FD73002307AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7D663232E01FEBF002307AE /* TMXProfiling.xcframework in Embed Frameworks */,
+				F7D6631B2E01FD76002307AE /* TMXProfilingConnections.xcframework in Embed Frameworks */,
+				F7D663192E01FD74002307AE /* TMXBehavioSec.xcframework in Embed Frameworks */,
+				F7D663162E01FD73002307AE /* TMXAuthentication.xcframework in Embed Frameworks */,
+				F7D6631D2E01FD77002307AE /* TMXSensors.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06F03985F7451DAA7DCC8038 /* Pods-appClipIncode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appClipIncode.release.xcconfig"; path = "Target Support Files/Pods-appClipIncode/Pods-appClipIncode.release.xcconfig"; sourceTree = "<group>"; };
+		4502A40B6BC559BBF83575C5 /* Pods-appClipIncode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appClipIncode.debug.xcconfig"; path = "Target Support Files/Pods-appClipIncode/Pods-appClipIncode.debug.xcconfig"; sourceTree = "<group>"; };
+		4DBA69817909C5AA1397A60C /* Pods_appClipIncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appClipIncode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75D6AEA2DD7AAF300D6C51F /* appClipIncode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appClipIncode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75D6B002DD7AAF500D6C51F /* appClipIncodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appClipIncodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75D6B0A2DD7AAF500D6C51F /* appClipIncodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appClipIncodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75D6B1E2DD7AB4E00D6C51F /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		F78C9A692DDD0A740063A739 /* appClipIncode-clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appClipIncode-clip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78C9A7F2DDD0A760063A739 /* appClipIncode-clipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appClipIncode-clipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78C9A892DDD0A760063A739 /* appClipIncode-clipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appClipIncode-clipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C4F75F2DF32200004572EF /* IncdOnboarding.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IncdOnboarding.xcframework; path = Pods/IncdOnboarding/IncdOnboarding.xcframework; sourceTree = "<group>"; };
+		F7C4F7622DF32216004572EF /* opencv2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = opencv2.xcframework; path = Pods/IncdOnboarding/opencv2.xcframework; sourceTree = "<group>"; };
+		F7D663002E01FCFD002307AE /* TMXAuthentication.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; path = TMXAuthentication.xcframework; sourceTree = "<group>"; };
+		F7D663012E01FCFD002307AE /* TMXBehavioSec.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; path = TMXBehavioSec.xcframework; sourceTree = "<group>"; };
+		F7D663022E01FCFD002307AE /* TMXProfilingConnections.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; path = TMXProfilingConnections.xcframework; sourceTree = "<group>"; };
+		F7D663032E01FCFD002307AE /* TMXSensors.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; path = TMXSensors.xcframework; sourceTree = "<group>"; };
+		F7D6631F2E01FE92002307AE /* TMXProfiling.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:8VDTV2QZMS:ThreatMetrix Inc."; lastKnownFileType = wrapper.xcframework; path = TMXProfiling.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F75D6B122DD7AAF500D6C51F /* Exceptions for "appClipIncode" folder in "appClipIncode" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F75D6AE92DD7AAF300D6C51F /* appClipIncode */;
+		};
+		F78C9A982DDD0A760063A739 /* Exceptions for "appClipIncode-clip" folder in "appClipIncode-clip" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F78C9A682DDD0A740063A739 /* appClipIncode-clip */;
+		};
+		F7C4F5F12DF21547004572EF /* Exceptions for "appClipIncode" folder in "appClipIncode-clip" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				appClipIncodeModel.swift,
+				appClipIncodeViewModel.swift,
+				TMXProfileController.swift,
+			);
+			target = F78C9A682DDD0A740063A739 /* appClipIncode-clip */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F75D6AEC2DD7AAF300D6C51F /* appClipIncode */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F75D6B122DD7AAF500D6C51F /* Exceptions for "appClipIncode" folder in "appClipIncode" target */,
+				F7C4F5F12DF21547004572EF /* Exceptions for "appClipIncode" folder in "appClipIncode-clip" target */,
+			);
+			path = appClipIncode;
+			sourceTree = "<group>";
+		};
+		F75D6B032DD7AAF500D6C51F /* appClipIncodeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = appClipIncodeTests;
+			sourceTree = "<group>";
+		};
+		F75D6B0D2DD7AAF500D6C51F /* appClipIncodeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = appClipIncodeUITests;
+			sourceTree = "<group>";
+		};
+		F78C9A6A2DDD0A740063A739 /* appClipIncode-clip */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F78C9A982DDD0A760063A739 /* Exceptions for "appClipIncode-clip" folder in "appClipIncode-clip" target */,
+			);
+			path = "appClipIncode-clip";
+			sourceTree = "<group>";
+		};
+		F78C9A822DDD0A760063A739 /* appClipIncode-clipTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "appClipIncode-clipTests";
+			sourceTree = "<group>";
+		};
+		F78C9A8C2DDD0A760063A739 /* appClipIncode-clipUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "appClipIncode-clipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75D6AE72DD7AAF300D6C51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D663202E01FE92002307AE /* TMXProfiling.xcframework in Frameworks */,
+				F7D663112E01FD6E002307AE /* TMXProfilingConnections.xcframework in Frameworks */,
+				F7D6630F2E01FD6D002307AE /* TMXBehavioSec.xcframework in Frameworks */,
+				F7D6630C2E01FD3B002307AE /* opencv2.xcframework in Frameworks */,
+				F7D663132E01FD6F002307AE /* TMXSensors.xcframework in Frameworks */,
+				F7C4F7702DF337C6004572EF /* IncdOnboarding.xcframework in Frameworks */,
+				F7D6630D2E01FD6B002307AE /* TMXAuthentication.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D6AFD2DD7AAF500D6C51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D6B072DD7AAF500D6C51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A662DDD0A740063A739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D663222E01FEB8002307AE /* TMXProfiling.xcframework in Frameworks */,
+				F7D6631A2E01FD76002307AE /* TMXProfilingConnections.xcframework in Frameworks */,
+				F7D663182E01FD74002307AE /* TMXBehavioSec.xcframework in Frameworks */,
+				F7C4F76E2DF337B9004572EF /* IncdOnboarding.xcframework in Frameworks */,
+				F7D6631C2E01FD77002307AE /* TMXSensors.xcframework in Frameworks */,
+				F7C4F76F2DF337B9004572EF /* opencv2.xcframework in Frameworks */,
+				F7D663152E01FD73002307AE /* TMXAuthentication.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A7C2DDD0A760063A739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A862DDD0A760063A739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB34F812CDFAFFC6FBEE5C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4502A40B6BC559BBF83575C5 /* Pods-appClipIncode.debug.xcconfig */,
+				06F03985F7451DAA7DCC8038 /* Pods-appClipIncode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8B668462E7C2DCE96440C77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7C4F7622DF32216004572EF /* opencv2.xcframework */,
+				F7C4F75F2DF32200004572EF /* IncdOnboarding.xcframework */,
+				4DBA69817909C5AA1397A60C /* Pods_appClipIncode.framework */,
+				F7D663002E01FCFD002307AE /* TMXAuthentication.xcframework */,
+				F7D663012E01FCFD002307AE /* TMXBehavioSec.xcframework */,
+				F7D663022E01FCFD002307AE /* TMXProfilingConnections.xcframework */,
+				F7D663032E01FCFD002307AE /* TMXSensors.xcframework */,
+				F7D6631F2E01FE92002307AE /* TMXProfiling.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F75D6AE12DD7AAF300D6C51F = {
+			isa = PBXGroup;
+			children = (
+				F75D6AEC2DD7AAF300D6C51F /* appClipIncode */,
+				F75D6B032DD7AAF500D6C51F /* appClipIncodeTests */,
+				F75D6B0D2DD7AAF500D6C51F /* appClipIncodeUITests */,
+				F78C9A6A2DDD0A740063A739 /* appClipIncode-clip */,
+				F78C9A822DDD0A760063A739 /* appClipIncode-clipTests */,
+				F78C9A8C2DDD0A760063A739 /* appClipIncode-clipUITests */,
+				F75D6AEB2DD7AAF300D6C51F /* Products */,
+				3FB34F812CDFAFFC6FBEE5C6 /* Pods */,
+				E8B668462E7C2DCE96440C77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F75D6AEB2DD7AAF300D6C51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75D6AEA2DD7AAF300D6C51F /* appClipIncode.app */,
+				F75D6B002DD7AAF500D6C51F /* appClipIncodeTests.xctest */,
+				F75D6B0A2DD7AAF500D6C51F /* appClipIncodeUITests.xctest */,
+				F78C9A692DDD0A740063A739 /* appClipIncode-clip.app */,
+				F78C9A7F2DDD0A760063A739 /* appClipIncode-clipTests.xctest */,
+				F78C9A892DDD0A760063A739 /* appClipIncode-clipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75D6B1F2DD7AB4E00D6C51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75D6AE92DD7AAF300D6C51F /* appClipIncode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75D6B132DD7AAF500D6C51F /* Build configuration list for PBXNativeTarget "appClipIncode" */;
+			buildPhases = (
+				91E51D1484319B015A583E7E /* [CP] Check Pods Manifest.lock */,
+				F75D6AE62DD7AAF300D6C51F /* Sources */,
+				F75D6AE72DD7AAF300D6C51F /* Frameworks */,
+				F75D6AE82DD7AAF300D6C51F /* Resources */,
+				F7D0DA792DD7D24800B30ADF /* CopyFiles */,
+				F78C9A932DDD0A760063A739 /* Embed App Clips */,
+				635C1107319959300A2ED690 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78C9A922DDD0A760063A739 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F75D6AEC2DD7AAF300D6C51F /* appClipIncode */,
+			);
+			name = appClipIncode;
+			productName = appClipIncode;
+			productReference = F75D6AEA2DD7AAF300D6C51F /* appClipIncode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75D6AFF2DD7AAF500D6C51F /* appClipIncodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75D6B182DD7AAF500D6C51F /* Build configuration list for PBXNativeTarget "appClipIncodeTests" */;
+			buildPhases = (
+				F75D6AFC2DD7AAF500D6C51F /* Sources */,
+				F75D6AFD2DD7AAF500D6C51F /* Frameworks */,
+				F75D6AFE2DD7AAF500D6C51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75D6B022DD7AAF500D6C51F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F75D6B032DD7AAF500D6C51F /* appClipIncodeTests */,
+			);
+			name = appClipIncodeTests;
+			productName = appClipIncodeTests;
+			productReference = F75D6B002DD7AAF500D6C51F /* appClipIncodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F75D6B092DD7AAF500D6C51F /* appClipIncodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75D6B1B2DD7AAF500D6C51F /* Build configuration list for PBXNativeTarget "appClipIncodeUITests" */;
+			buildPhases = (
+				F75D6B062DD7AAF500D6C51F /* Sources */,
+				F75D6B072DD7AAF500D6C51F /* Frameworks */,
+				F75D6B082DD7AAF500D6C51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75D6B0C2DD7AAF500D6C51F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F75D6B0D2DD7AAF500D6C51F /* appClipIncodeUITests */,
+			);
+			name = appClipIncodeUITests;
+			productName = appClipIncodeUITests;
+			productReference = F75D6B0A2DD7AAF500D6C51F /* appClipIncodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F78C9A682DDD0A740063A739 /* appClipIncode-clip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78C9A952DDD0A760063A739 /* Build configuration list for PBXNativeTarget "appClipIncode-clip" */;
+			buildPhases = (
+				F78C9A652DDD0A740063A739 /* Sources */,
+				F78C9A662DDD0A740063A739 /* Frameworks */,
+				F78C9A672DDD0A740063A739 /* Resources */,
+				F7D663172E01FD73002307AE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F78C9A6A2DDD0A740063A739 /* appClipIncode-clip */,
+			);
+			name = "appClipIncode-clip";
+			productName = "appClipIncode-clip";
+			productReference = F78C9A692DDD0A740063A739 /* appClipIncode-clip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		F78C9A7E2DDD0A760063A739 /* appClipIncode-clipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78C9A992DDD0A760063A739 /* Build configuration list for PBXNativeTarget "appClipIncode-clipTests" */;
+			buildPhases = (
+				F78C9A7B2DDD0A760063A739 /* Sources */,
+				F78C9A7C2DDD0A760063A739 /* Frameworks */,
+				F78C9A7D2DDD0A760063A739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78C9A812DDD0A760063A739 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F78C9A822DDD0A760063A739 /* appClipIncode-clipTests */,
+			);
+			name = "appClipIncode-clipTests";
+			productName = "appClipIncode-clipTests";
+			productReference = F78C9A7F2DDD0A760063A739 /* appClipIncode-clipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F78C9A882DDD0A760063A739 /* appClipIncode-clipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78C9A9C2DDD0A760063A739 /* Build configuration list for PBXNativeTarget "appClipIncode-clipUITests" */;
+			buildPhases = (
+				F78C9A852DDD0A760063A739 /* Sources */,
+				F78C9A862DDD0A760063A739 /* Frameworks */,
+				F78C9A872DDD0A760063A739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78C9A8B2DDD0A760063A739 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F78C9A8C2DDD0A760063A739 /* appClipIncode-clipUITests */,
+			);
+			name = "appClipIncode-clipUITests";
+			productName = "appClipIncode-clipUITests";
+			productReference = F78C9A892DDD0A760063A739 /* appClipIncode-clipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75D6AE22DD7AAF300D6C51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F75D6AE92DD7AAF300D6C51F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F75D6AFF2DD7AAF500D6C51F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F75D6AE92DD7AAF300D6C51F;
+					};
+					F75D6B092DD7AAF500D6C51F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F75D6AE92DD7AAF300D6C51F;
+					};
+					F78C9A682DDD0A740063A739 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F78C9A7E2DDD0A760063A739 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F78C9A682DDD0A740063A739;
+					};
+					F78C9A882DDD0A760063A739 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F78C9A682DDD0A740063A739;
+					};
+				};
+			};
+			buildConfigurationList = F75D6AE52DD7AAF300D6C51F /* Build configuration list for PBXProject "appClipIncode" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75D6AE12DD7AAF300D6C51F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F75D6AEB2DD7AAF300D6C51F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F75D6B1F2DD7AB4E00D6C51F /* Products */;
+					ProjectRef = F75D6B1E2DD7AB4E00D6C51F /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F75D6AE92DD7AAF300D6C51F /* appClipIncode */,
+				F75D6AFF2DD7AAF500D6C51F /* appClipIncodeTests */,
+				F75D6B092DD7AAF500D6C51F /* appClipIncodeUITests */,
+				F78C9A682DDD0A740063A739 /* appClipIncode-clip */,
+				F78C9A7E2DDD0A760063A739 /* appClipIncode-clipTests */,
+				F78C9A882DDD0A760063A739 /* appClipIncode-clipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75D6AE82DD7AAF300D6C51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D6AFE2DD7AAF500D6C51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D6B082DD7AAF500D6C51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A672DDD0A740063A739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A7D2DDD0A760063A739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A872DDD0A760063A739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		635C1107319959300A2ED690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appClipIncode/Pods-appClipIncode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appClipIncode/Pods-appClipIncode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appClipIncode/Pods-appClipIncode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91E51D1484319B015A583E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appClipIncode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75D6AE62DD7AAF300D6C51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D6AFC2DD7AAF500D6C51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D6B062DD7AAF500D6C51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A652DDD0A740063A739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A7B2DDD0A760063A739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78C9A852DDD0A760063A739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75D6B022DD7AAF500D6C51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75D6AE92DD7AAF300D6C51F /* appClipIncode */;
+			targetProxy = F75D6B012DD7AAF500D6C51F /* PBXContainerItemProxy */;
+		};
+		F75D6B0C2DD7AAF500D6C51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75D6AE92DD7AAF300D6C51F /* appClipIncode */;
+			targetProxy = F75D6B0B2DD7AAF500D6C51F /* PBXContainerItemProxy */;
+		};
+		F78C9A812DDD0A760063A739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78C9A682DDD0A740063A739 /* appClipIncode-clip */;
+			targetProxy = F78C9A802DDD0A760063A739 /* PBXContainerItemProxy */;
+		};
+		F78C9A8B2DDD0A760063A739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78C9A682DDD0A740063A739 /* appClipIncode-clip */;
+			targetProxy = F78C9A8A2DDD0A760063A739 /* PBXContainerItemProxy */;
+		};
+		F78C9A922DDD0A760063A739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78C9A682DDD0A740063A739 /* appClipIncode-clip */;
+			targetProxy = F78C9A912DDD0A760063A739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F75D6B142DD7AAF500D6C51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4502A40B6BC559BBF83575C5 /* Pods-appClipIncode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYN4L8UXW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appClipIncode/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iddataweb.appClipIncode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F75D6B152DD7AAF500D6C51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F03985F7451DAA7DCC8038 /* Pods-appClipIncode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYN4L8UXW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appClipIncode/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iddataweb.appClipIncode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F75D6B162DD7AAF500D6C51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F75D6B172DD7AAF500D6C51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75D6B192DD7AAF500D6C51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iddataweb.appClipIncodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appClipIncode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appClipIncode";
+			};
+			name = Debug;
+		};
+		F75D6B1A2DD7AAF500D6C51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iddataweb.appClipIncodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appClipIncode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appClipIncode";
+			};
+			name = Release;
+		};
+		F75D6B1C2DD7AAF500D6C51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iddataweb.appClipIncodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appClipIncode;
+			};
+			name = Debug;
+		};
+		F75D6B1D2DD7AAF500D6C51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iddataweb.appClipIncodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appClipIncode;
+			};
+			name = Release;
+		};
+		F78C9A962DDD0A760063A739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "appClipIncode-clip/appClipIncode_clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYN4L8UXW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "appClipIncode-clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = appClipIncode;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = iddataweb.appClipIncode.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78C9A972DDD0A760063A739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "appClipIncode-clip/appClipIncode_clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYN4L8UXW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "appClipIncode-clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = appClipIncode;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = iddataweb.appClipIncode.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F78C9A9A2DDD0A760063A739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iddataweb.appClipIncode.appClipIncode-clipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appClipIncode-clip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appClipIncode-clip";
+			};
+			name = Debug;
+		};
+		F78C9A9B2DDD0A760063A739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iddataweb.appClipIncode.appClipIncode-clipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appClipIncode-clip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appClipIncode-clip";
+			};
+			name = Release;
+		};
+		F78C9A9D2DDD0A760063A739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iddataweb.appClipIncode.appClipIncode-clipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "appClipIncode-clip";
+			};
+			name = Debug;
+		};
+		F78C9A9E2DDD0A760063A739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iddataweb.appClipIncode.appClipIncode-clipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "appClipIncode-clip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75D6AE52DD7AAF300D6C51F /* Build configuration list for PBXProject "appClipIncode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75D6B162DD7AAF500D6C51F /* Debug */,
+				F75D6B172DD7AAF500D6C51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75D6B132DD7AAF500D6C51F /* Build configuration list for PBXNativeTarget "appClipIncode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75D6B142DD7AAF500D6C51F /* Debug */,
+				F75D6B152DD7AAF500D6C51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75D6B182DD7AAF500D6C51F /* Build configuration list for PBXNativeTarget "appClipIncodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75D6B192DD7AAF500D6C51F /* Debug */,
+				F75D6B1A2DD7AAF500D6C51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75D6B1B2DD7AAF500D6C51F /* Build configuration list for PBXNativeTarget "appClipIncodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75D6B1C2DD7AAF500D6C51F /* Debug */,
+				F75D6B1D2DD7AAF500D6C51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78C9A952DDD0A760063A739 /* Build configuration list for PBXNativeTarget "appClipIncode-clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78C9A962DDD0A760063A739 /* Debug */,
+				F78C9A972DDD0A760063A739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78C9A992DDD0A760063A739 /* Build configuration list for PBXNativeTarget "appClipIncode-clipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78C9A9A2DDD0A760063A739 /* Debug */,
+				F78C9A9B2DDD0A760063A739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78C9A9C2DDD0A760063A739 /* Build configuration list for PBXNativeTarget "appClipIncode-clipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78C9A9D2DDD0A760063A739 /* Debug */,
+				F78C9A9E2DDD0A760063A739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75D6AE22DD7AAF300D6C51F /* Project object */;
+}

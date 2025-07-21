@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/IncdOnboarding/IncdOnboarding-xcframeworks.sh
+${PODS_ROOT}/IncdOnboarding/IncdOnboarding.xcframework
+${PODS_ROOT}/IncdOnboarding/opencv2.xcframework
