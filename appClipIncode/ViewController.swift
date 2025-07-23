@@ -22,12 +22,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet var td: TMXProfileController!
     @IBOutlet weak var policyDecisionText: UILabel!
-    @IBOutlet weak var redirectWebView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        redirectWebView.isHidden = true
         
         // Do any additional setup after loading the view such as
         // getting location permissions from user
@@ -131,11 +128,6 @@ extension ViewController: IncdOnboardingDelegate {
         print("onSuccess")
         
         let url = URL(string: "https://preprod1.iddataweb.com/axn/api/async-ui/redirect?apSessionId=\(apSessionId)&processResult=true&asi=\(transaction_id)")
-        var request = URLRequest(url: url!)
-        print(request.url!)
-        
-        DispatchQueue.main.async {
-            self.redirectWebView.load(request)
-        }
+        var redirectCall = axnApiObject.redirect(redirectUrl: url!)
     }
 }
