@@ -71,25 +71,6 @@ class axnObject: ObservableObject {
         request.httpMethod = "POST"
         request.httpBody = payload
         
-//        if apiEndpoint == "/v1/slverify" {
-//            request.httpMethod = "POST"
-//            request.httpBody = payload
-//        } else if apiEndpoint == "/v1/doccapture/sendlink" {
-//            request.httpMethod = "GET"
-//            var components = URLComponents()
-//            components.scheme = "https"
-//            components.host = "api.preprod.iddataweb.com"
-//            components.path = apiEndpoint
-//            components.queryItems = [
-//                URLQueryItem(name: "dialCode", value: phoneAttribute.values!["dialCode"]!),
-//                URLQueryItem(name: "telephone", value: phoneAttribute.values!["telephone"]!),
-//                URLQueryItem(name: "apikey", value: forwardApiKey),
-//                URLQueryItem(name: "credential", value: "test"),
-//                URLQueryItem(name: "appID", value: "test")
-//            ]
-//            request.url = components.url
-//        }
-        
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.setValue("no-cache", forHTTPHeaderField: "Cache-Control")
         request.setValue("Bearer " + bearerToken, forHTTPHeaderField: "Authorization")
@@ -124,6 +105,19 @@ class axnObject: ObservableObject {
         
         let response = ["policyDecision": policyDecision, "forwardApiKey": newForwardApiKey, "transaction_id": transaction_id, "apTransactionId": apTransactionId!, "apSessionId": apSessionId!]
         return response
+    }
+
+    public func redirect(redirectUrl: URL) {
+        var request = URLRequest(url: redirectUrl)
+        
+        let (data, _, error) = URLSession.shared.synchronousDataTask(urlrequest: request)
+        if let error = error {
+            print("ERROR making request: \(error)")
+        } else {
+            do {
+                print("Redirect successful")
+            } 
+        }
     }
     
     public func uploadTMXData(baseUrl: String, apiEndpoint: String, bearerToken: String, forwardApiKey: String, asi: String?, apSessionId: String?) -> [String: String] {
