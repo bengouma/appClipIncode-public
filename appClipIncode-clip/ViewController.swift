@@ -50,7 +50,6 @@ class ViewController: UIViewController {
     
     @IBAction func uploadTMXData(_ sender: UIButton) {
         td_clip.profileHandle.sendBehavioSecData()
-        let baseUrl: String = "https://api.preprod.iddataweb.com"
         var token = ""
         var uploadProfileData: [String: String]?
         
@@ -143,11 +142,8 @@ extension ViewController: IncdOnboardingDelegate {
     
     func onSuccess() {
         print("onSuccess")
-        var policyDecsionResult: [String: String]?
-        policyDecsionResult = axnApiObject.callBioGovID(baseUrl: baseUrl, apiEndpoint: "/v1/slverify", bearerToken: token, forwardApiKey: "e6127ea024964156", asi: transaction_id)
-        
-        DispatchQueue.main.async {
-            self.policyDecisionText.text = "Policy decision: \(policyDecsionResult!["policyDecision"]!)"
-        }
+
+        let url = URL(string: "https://preprod1.iddataweb.com/axn/api/async-ui/redirect?apSessionId=\(apSessionId)&processResult=true&asi=\(transaction_id)")
+        var redirectCall = axnApiObject.redirect(redirectUrl: url!)
     }
 }
