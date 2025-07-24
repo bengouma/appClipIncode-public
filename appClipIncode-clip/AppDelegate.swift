@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var sharedSecret: String?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        IncdOnboardingManager.shared.initIncdOnboarding(url: "https://saas-onboarding.incodesmile.com", apiKey: "xxxxxx")
+        IncdOnboardingManager.shared.initIncdOnboarding(url: "https://saas-api.incodesmile.com", apiKey: "xxxxxx")
         
         // Override point for customization after application launch.
         return true
